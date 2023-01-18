@@ -9,7 +9,7 @@ This module will allow you to grab translation files with the ability to exclude
 
 **Magento 2 platform:**
 
-Tested on Magento v2.3.3 and v2.2.10 (will require at least v2.2 from you)
+Tested on Magento v2.4.5
 
 ### How to install
 
