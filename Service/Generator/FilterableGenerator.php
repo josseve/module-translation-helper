@@ -8,7 +8,7 @@ use Magento\Setup\Module\I18n\Dictionary\Generator;
 use Magento\Setup\Module\I18n\Dictionary\Options;
 use Magento\Setup\Module\I18n\Factory;
 use Magento\Setup\Module\I18n\ParserInterface;
-use Underser\TranslationHelper\Service\Filter\FilterInterface;
+use Josseve\TranslationHelper\Service\Filter\FilterInterface;
 use UnexpectedValueException;
 
 /**
