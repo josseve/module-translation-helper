@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Underser\TranslationHelper\Service\Filter;
+namespace Josseve\TranslationHelper\Service\Filter;
 
 use Magento\Framework\TranslateInterface;
 use Magento\Framework\App\Area;
@@ -10,7 +10,7 @@ use Magento\Framework\App\Area;
 /**
  * Class TranslatedPhrasesFilter.
  *
- * @package Underser\TranslationHelper\Service\Filter
+ * @package Josseve\TranslationHelper\Service\Filter
  */
 class TranslatedPhrasesFilter implements FilterInterface
 {
