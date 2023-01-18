@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Underser\TranslationHelper\Test\Unit\Service\Filter;
+namespace Josseve\TranslationHelper\Test\Unit\Service\Filter;
 
 use Magento\Framework\TranslateInterface;
 use PHPUnit\Framework\TestCase;
-use Underser\TranslationHelper\Service\Filter\FilterInterface;
-use Underser\TranslationHelper\Service\Filter\TranslatedPhrasesFilter;
+use Josseve\TranslationHelper\Service\Filter\FilterInterface;
+use Josseve\TranslationHelper\Service\Filter\TranslatedPhrasesFilter;
 
 /**
  * Class TranslatedPhrasesFilterTest.
  *
- * @package Underser\TranslationHelper\Test\Unit\Service\Filter
+ * @package Josseve\TranslationHelper\Test\Unit\Service\Filter
  */
 class TranslatedPhrasesFilterTest extends TestCase
 {
