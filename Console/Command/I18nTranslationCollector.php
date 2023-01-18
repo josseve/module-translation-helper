@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Underser\TranslationHelper\Console\Command;
+namespace Josseve\TranslationHelper\Console\Command;
 
 use Magento\Framework\App\Area;
 use Magento\Framework\App\State;
