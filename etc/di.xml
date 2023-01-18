@@ -32,12 +32,12 @@
 
     <type name="Josseve\TranslationHelper\Service\Generator\FilterableGenerator">
         <arguments>
-            <argument name="parser" xsi:type="object">Underser\TranslationHelper\Service\I18n\Parser\Parser</argument>
-            <argument name="contextualParser" xsi:type="object">Underser\TranslationHelper\Service\I18n\Parser\Contextual</argument>
+            <argument name="parser" xsi:type="object">Josseve\TranslationHelper\Service\I18n\Parser\Parser</argument>
+            <argument name="contextualParser" xsi:type="object">Josseve\TranslationHelper\Service\I18n\Parser\Contextual</argument>
             <argument name="factory" xsi:type="object">Magento\Setup\Module\I18n\Factory</argument>
             <argument name="optionsResolver" xsi:type="object">Magento\Setup\Module\I18n\Dictionary\Options\ResolverFactory</argument>
             <argument name="filters" xsi:type="array">
-                <item name="translatedPhrases" xsi:type="object">Underser\TranslationHelper\Service\Filter\TranslatedPhrasesFilter</item>
+                <item name="translatedPhrases" xsi:type="object">Josseve\TranslationHelper\Service\Filter\TranslatedPhrasesFilter</item>
             </argument>
         </arguments>
     </type>
@@ -45,7 +45,7 @@
     <type name="Josseve\TranslationHelper\Console\Command\I18nTranslationCollector">
         <arguments>
             <argument name="filters" xsi:type="array">
-                <item name="locale" xsi:type="object">Underser\TranslationHelper\Console\Input\InputOption</item>
+                <item name="locale" xsi:type="object">Josseve\TranslationHelper\Console\Input\InputOption</item>
             </argument>
         </arguments>
     </type>
