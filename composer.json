@@ -1,5 +1,5 @@
 {
-    "name": "underser/module-translation-helper",
+    "name": "josseve/module-translation-helper",
     "description": "N/A",
     "config": {
         "sort-packages": true
@@ -35,7 +35,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Underser\\TranslationHelper\\": ""
+            "Josseve\\TranslationHelper\\": ""
         }
     }
 }
