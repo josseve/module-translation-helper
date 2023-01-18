@@ -13,12 +13,12 @@ use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
-use Underser\TranslationHelper\Service\Generator\FilterableGenerator;
+use Josseve\TranslationHelper\Service\Generator\FilterableGenerator;
 
 /**
  * Class I18nTranslationCollector.
  *
- * @package Underser\TranslationHelper\Console\Command
+ * @package Josseve\TranslationHelper\Console\Command
  */
 class I18nTranslationCollector extends Command
 {
