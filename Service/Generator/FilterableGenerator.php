@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Underser\TranslationHelper\Service\Generator;
+namespace Josseve\TranslationHelper\Service\Generator;
 
 use Magento\Setup\Module\I18n\Dictionary\Generator;
 use Magento\Setup\Module\I18n\Dictionary\Options;
@@ -14,7 +14,7 @@ use UnexpectedValueException;
 /**
  * Class FilterableGenerator.
  *
- * @package Underser\TranslationHelper\Service\Generator
+ * @package Josseve\TranslationHelper\Service\Generator
  */
 class FilterableGenerator extends Generator
 {
